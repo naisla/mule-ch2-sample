@@ -1,2 +1,1 @@
-# mule-ch2-sample
-Mule CH2 hello world demo app
+# Sample Project for Cloudhub 2.0 Deployment
