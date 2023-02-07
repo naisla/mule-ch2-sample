@@ -40,9 +40,10 @@
 							<muleVersion>4.4.0</muleVersion>
 							<!-- reads credentials from settings.xml -->
 							<!-- <server>cloudhub-deploy</server> -->
+							
 							<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						       <connectedAppClientId>834aa025a7ff4de6ba23d247bef8b681</connectedAppClientId>
-						       <connectedAppClientSecret>233b0B08083D4B198744fE32abfB50D9</connectedAppClientSecret>
+                                                        <connectedAppClientId>${ap.ca.client_id}</connectedAppClientId>
+                                                        <connectedAppClientSecret>${ap.ca.client_secret}</connectedAppClientSecret>
 							
 							<applicationName>${project.name}-${environment}</applicationName>
 							<replicas>1</replicas>
